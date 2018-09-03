@@ -13,7 +13,7 @@ run，浏览器就自动执行，心也跟着起舞~
 2. selenium 3.1
 3. ide eclipse ee
 
-## selenium基础
+## [selenium基础.](https://github.com/dqw6668/myStudy_in_seleniun/blob/master/src/selenium%E5%9F%BA%E7%A1%80/README.md)
 
 1. Setproperty、环境
 2. html的组成
