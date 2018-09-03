@@ -67,3 +67,6 @@
      - 隐式等待--相当于全局
 
 ps：
+
+1. 弄清楚selenium工作原理，clien，driver
+2. 动态元素的定位？常用Xpath
