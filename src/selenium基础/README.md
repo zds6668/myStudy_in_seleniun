@@ -4,7 +4,7 @@
    - 环境配置不赘述
    - 创建项目，导入jar包不赘述
    - WebDriver driver;
-   - [System.setProperty();](/find_element.java)
+   - [System.setProperty();](https://github.com/dqw6668/myStudy_in_seleniun/blob/master/src/selenium%E5%9F%BA%E7%A1%80/find_element.java)
 
 2. HTML基础
 
