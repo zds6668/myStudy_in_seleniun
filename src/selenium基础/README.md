@@ -1,4 +1,4 @@
-# [Talk is cheap.*Show* me your *code*.](selenium基础/ActionSelenium.java)
+# [Talk is cheap.*Show* me your *code*.](https://github.com/dqw6668/myStudy_in_seleniun/blob/master/src/selenium%E5%9F%BA%E7%A1%80/ActionSelenium.java)
 1. 环境
 
    - 环境配置不赘述
