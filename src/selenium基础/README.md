@@ -1,10 +1,10 @@
-# [Talk is cheap.*Show* me your *code*.](src/selenium基础/ActionSelenium.java)
+# [Talk is cheap.*Show* me your *code*.](/ActionSelenium.java)
 1. 环境
 
    - 环境配置不赘述
    - 创建项目，导入jar包不赘述
    - WebDriver driver;
-   - [System.setProperty();](src/selenium基础/find_element.java)
+   - [System.setProperty();](/find_element.java)
 
 2. HTML基础
 
