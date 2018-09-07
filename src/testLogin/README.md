@@ -1,10 +1,6 @@
 ## Talk is cheap.*Show* me your code
 
-### project tree
 
-1. login.java，最原始的实现
-
-2. 
 
 ## 初步testLogin
 
@@ -38,4 +34,3 @@
    - 需要driver调用截图，封装截图方法到[baseDriver.java](https://github.com/dqw6668/myStudy_in_seleniun/blob/master/src/testLogin/baseDriver.java#L22)中
    - @Listeners事件监听
 
-## 分层设计
