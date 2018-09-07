@@ -11,17 +11,13 @@ run，浏览器就自动执行，心也跟着起舞~
 
 
 
-
-
 # studyTree
 
 
 
 ## 环境
 
-1. jdk1.8
-2. selenium 3.1
-3. ide eclipse ee
+jdk1.8、selenium 3.1、ide eclipse ee、testng 6.14、maven 3.5.4、chromedriver、log4j 1.2、
 
 ## [selenium基础](https://github.com/dqw6668/myStudy_in_seleniun/blob/master/src/selenium%E5%9F%BA%E7%A1%80/README.md)
 
@@ -35,9 +31,10 @@ run，浏览器就自动执行，心也跟着起舞~
 
    complete 9月4日 02:35:10
 
-## [登录测试](https://github.com/dqw6668/myStudy_in_seleniun/tree/master/src/testLogin)
+## 登录测试
 
-1. 初步实现
+1. [最初的测试功能实现](https://github.com/dqw6668/myStudy_in_seleniun/tree/master/src/testLogin)**testLogin**
+
    - 登录需求分析，功能点，注意用户体验
    - 自动化测试用例
    - 依赖管理Maven
@@ -48,11 +45,18 @@ run，浏览器就自动执行，心也跟着起舞~
    - 帐号密码参数化，hashmap
    - 引入自动化测试框架Testng
    - 自动截图方法，事件监听截图
-2. 代码分层设计
+
+2. [对最初版本代码分层设计](https://github.com/dqw6668/myStudy_in_seleniun/tree/master/src/loginLayer)**loginLayer**
+
    - 元素层
+
    - 操作层
+
    - 业务层
+
    - 日志收集，测试报告生成
+
+     complete 9月8日 00:03:46
 
 ## 购买测试
 
