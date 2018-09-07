@@ -17,8 +17,7 @@ public class baseDriver {
 		// TODO Auto-generated constructor stub
 		System.setProperty("webdriver.chrome.driver", "E:\\java\\project\\chromedriver_win32\\chromedriver.exe");
 		driver = new ChromeDriver();
-	}
-	
+	}	
 	
 	/*
 	 * 截图 12)
