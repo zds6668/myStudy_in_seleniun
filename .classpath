@@ -13,5 +13,17 @@
 	<classpathentry kind="lib" path="E:/java/project/selenium-java-3.10.0/libs/httpcore-4.4.6.jar"/>
 	<classpathentry kind="lib" path="E:/java/project/selenium-java-3.10.0/libs/okhttp-3.9.1.jar"/>
 	<classpathentry kind="lib" path="E:/java/project/selenium-java-3.10.0/libs/okio-1.13.0.jar"/>
+	<classpathentry kind="lib" path="E:/java/project/org.testng.eclipse.updatesite/plugins/org.testng.eclipse.maven_6.14.0.201802161500.jar"/>
+	<classpathentry kind="lib" path="E:/java/project/org.testng.eclipse.updatesite/plugins/org.testng.eclipse_6.14.0.201802161500.jar"/>
+	<classpathentry kind="lib" path="E:/java/project/org.testng.eclipse.updatesite/plugins/org.testng.source_6.14.2.r201802161450.jar"/>
+	<classpathentry kind="lib" path="E:/java/project/org.testng.eclipse.updatesite/plugins/org.testng_6.14.2.r201802161450.jar"/>
+	<classpathentry kind="lib" path="E:/java/project/org.testng.eclipse.updatesite/plugins/com.beust.jcommander.source_1.72.0.jar"/>
+	<classpathentry kind="lib" path="E:/java/project/org.testng.eclipse.updatesite/plugins/com.beust.jcommander_1.72.0.jar"/>
+	<classpathentry kind="lib" path="E:/java/project/org.testng.eclipse.updatesite/plugins/com.google.guava_15.0.0.v201403281430.jar"/>
+	<classpathentry kind="lib" path="E:/java/project/org.testng.eclipse.updatesite/plugins/org.apache-extras.beanshell.bsh.source_2.0.0.b6.jar"/>
+	<classpathentry kind="lib" path="E:/java/project/org.testng.eclipse.updatesite/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar"/>
+	<classpathentry kind="lib" path="E:/java/project/org.testng.eclipse.updatesite/plugins/org.yaml.snakeyaml.source_1.17.0.jar"/>
+	<classpathentry kind="lib" path="E:/java/project/org.testng.eclipse.updatesite/plugins/org.yaml.snakeyaml_1.17.0.jar"/>
+	<classpathentry kind="lib" path="E:/java/project/log4j-1.2.17/apache-log4j-1.2.17/log4j-1.2.17.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
