@@ -2,7 +2,7 @@
 
 
 
-## 初步testLogin
+## 初步testLogin-->login.java
 
 1. 功能点![3-1.png](https://github.com/dqw6668/myStudy_in_seleniun/blob/master/src/testLogin/pic/3-1.png)
 

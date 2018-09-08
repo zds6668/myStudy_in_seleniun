@@ -26,4 +26,11 @@ public class DriverBase {
 	public void get(String url) {
 		driver.get(url);
 	}
+
+	/*
+	 * 返回
+	 */
+	public void back() {
+		driver.navigate().back();
+	}
 }
