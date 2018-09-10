@@ -66,6 +66,6 @@
 
    - 配置这些就不写了，网上也比较多
 
-   - log生成用了开源的log4j![log](https://github.com/dqw6668/myStudy_in_seleniun/blob/master/src/testLogin/pic/log4j.png)
+   - log生成用了开源的log4j![log](https://github.com/dqw6668/myStudy_in_seleniun/blob/master/src/testLogin/pic/3-21log4j.png)
 
    - testng自动有测试报告生成，看起来不太友好，没有图表，用testng-xslt进行美化
