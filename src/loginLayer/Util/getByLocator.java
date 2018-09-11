@@ -17,6 +17,8 @@ public class getByLocator {
 			return By.name(locatorValue);
 		}else if (locatorType.equals("className")) {
 			return By.className(locatorValue);
+		}else if (locatorType.equals("tagName")) {
+			return By.tagName(locatorValue);
 		}else {
 			return By.xpath(locatorValue);
 		}
