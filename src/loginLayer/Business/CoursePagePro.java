@@ -26,6 +26,14 @@ public class CoursePagePro {
 			beforeNum = 0;
 		}
 		coursePageHandle.clickAddCart();
+		
+		try {
+			driver.switchToMode();
+		}catch (Exception e) {
+			// TODO: handle exception
+		}
+		
+		coursePageHandle.clickBuyNow();
 		aftercourseNum = coursePageHandle.getShopCartNum();
 		try {
 		    afterNum = Integer.valueOf(aftercourseNum);
@@ -45,5 +53,13 @@ public class CoursePagePro {
 		}else if (afterNum>0) {
 			coursePageHandle.clickAddCart();
 		}
+	}
+	
+	/*
+	 * 点击立即购买
+	 */
+	public void buyNow() {
+		// TODO Auto-generated method stub
+		coursePageHandle.clickBuyNow();
 	}
 }

@@ -49,4 +49,18 @@ public class CoursePageHandle {
 		WebElement element = coursePage.getCourseNameElement();
 		return coursePage.getText(element);
 	}
+	
+	/*
+	 * 去结算
+	 */
+	public void clickGoPay() {
+		coursePage.click(coursePage.getGoPayElement());
+	}
+	
+	/*
+	 * 点击弹窗的确定按钮
+	 */
+	public void clickReadyBuy() {
+		coursePage.click(coursePage.getReadyBuy());
+	}
 }

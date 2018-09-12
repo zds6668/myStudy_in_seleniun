@@ -10,6 +10,8 @@ import org.testng.annotations.Test;
 import loginLayer.Base.DriverBase;
 import loginLayer.Business.CoursePagePro;
 import loginLayer.Business.LoginPro;
+import loginLayer.Business.OrderPayPagePro;
+import loginLayer.Business.SureOrderPagePro;
 import loginLayer.Page.CoursePage;
 import loginLayer.Util.getByLocator;
 
@@ -18,11 +20,15 @@ public class login extends CaseBase{
 	public DriverBase driver;
 	public LoginPro loginPro;
 	public CoursePagePro cpp;
+	public SureOrderPagePro sopp;
+	public OrderPayPagePro opp;
 	static Logger logger = Logger.getLogger(login.class);
 	public login() {
 		this.driver = InitDriver("chrome");
 		loginPro = new LoginPro(driver);
 		cpp = new CoursePagePro(driver);
+		sopp = new SureOrderPagePro(driver);
+		opp = new OrderPayPagePro(driver);
 	}
 	@Test
 	public void getLogHome() {
@@ -54,10 +60,23 @@ public class login extends CaseBase{
 	@Test(dependsOnMethods= {"testLogin"})
 	public void TestAddCart() {
 		driver.get("https://coding.imooc.com/class/195.html?");
-		cpp.addCart();
+		cpp.buyNow();
+	}
+	/*
+	 * 提交订单
+	 */
+	@Test(dependsOnMethods= {"TestAddCart"})
+	public void TestSureOrder() {
+		sopp.sureOrder();
 	}
 	
-	
+	/*
+	 * 跳转页面
+	 */
+	@Test(dependsOnMethods= {"TestSureOrder"})
+	public void TestGoPay() {
+		opp.orderPayPro();
+	}
 	
 
 	

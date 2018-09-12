@@ -46,4 +46,18 @@ public class CoursePage extends BasePage{
 		return nodeElement(getByLocator.getLocator("courseInfo"), getByLocator.getLocator("courseInfoText"));
 	}
 	
+	/*
+	 * 获取课程详情的课程名称
+	 */
+	public WebElement getGoPayElement() {
+		return nodeElement(getByLocator.getLocator("shopgopay"), getByLocator.getLocator("shopgopayNode"));
+	}
+	
+	/*
+	 * 获取课程详情的课程名称
+	 */
+	public WebElement getReadyBuy() {
+		return nodeElement(getByLocator.getLocator("readybuySure"), getByLocator.getLocator("readybuySureNode"));
+	}
+	
 }

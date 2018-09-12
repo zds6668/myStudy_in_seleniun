@@ -33,4 +33,11 @@ public class DriverBase {
 	public void back() {
 		driver.navigate().back();
 	}
+	
+	/*
+	 * 模态框切换
+	 */
+	public void switchToMode() {
+		driver.switchTo().activeElement();
+	}
 }

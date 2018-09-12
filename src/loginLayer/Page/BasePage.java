@@ -29,7 +29,6 @@ public class BasePage {
 		return element.findElement(nodeby);
 	}
 	
-	
 	/*
 	 * 点击
 	 */
