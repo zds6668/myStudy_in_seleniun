@@ -8,17 +8,21 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import loginLayer.Base.DriverBase;
+import loginLayer.Business.CoursePagePro;
 import loginLayer.Business.LoginPro;
+import loginLayer.Page.CoursePage;
 import loginLayer.Util.getByLocator;
 
 
 public class login extends CaseBase{
 	public DriverBase driver;
 	public LoginPro loginPro;
+	public CoursePagePro cpp;
 	static Logger logger = Logger.getLogger(login.class);
 	public login() {
 		this.driver = InitDriver("chrome");
 		loginPro = new LoginPro(driver);
+		cpp = new CoursePagePro(driver);
 	}
 	@Test
 	public void getLogHome() {
@@ -45,9 +49,22 @@ public class login extends CaseBase{
 	}
 	
 	/*
-	 * 下单流程4-9
+	 * 添加购物车4-13
 	 */
-	@Test(dependsOnMethods={"testLogin"})
+	@Test(dependsOnMethods= {"testLogin"})
+	public void TestAddCart() {
+		driver.get("https://coding.imooc.com/class/195.html?");
+		cpp.addCart();
+	}
+	
+	
+	
+
+	
+	/*
+	 * 下单流程
+	 */
+//	@Test(dependsOnMethods={"testLogin"})
 	public void downOrder(){
 		driver.get("http://coding.imooc.com/class/74.html");
 		String currentText = this.buyCourseNow();
