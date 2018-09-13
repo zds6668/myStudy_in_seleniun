@@ -61,7 +61,8 @@
    - [orderPayPage](https://github.com/dqw6668/myStudy_in_seleniun/blob/master/src/loginLayer/Page/orderPayPage.java)
    - [OrderPayPageHandle](https://github.com/dqw6668/myStudy_in_seleniun/blob/master/src/loginLayer/Handle/OrderPayPageHandle.java)
    - [OrderPayPagePro](https://github.com/dqw6668/myStudy_in_seleniun/blob/master/src/loginLayer/Business/OrderPayPagePro.java)
-5. testCase中
+5. testCase中的[login_po](https://github.com/dqw6668/myStudy_in_seleniun/blob/master/src/loginLayer/testCase/login_po.java)
    - new CoursePagePro @Test(dependsOnMethods= 登录
    - new SureOrderPagePro @Test(dependsOnMethods= 上一步
    - new OrderPayPagePro @Test(dependsOnMethods= 上一步
+6. case运行完毕，自动化测试报告，自动发送邮件
