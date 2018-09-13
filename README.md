@@ -58,7 +58,7 @@ jdk1.8、selenium 3.1、ide eclipse ee、testng 6.14、maven 3.5.4、chromedrive
 
      complete 9月8日 00:03:46
 
-## 购买测试
+## [购买测试](https://github.com/dqw6668/myStudy_in_seleniun/blob/master/src/loginLayer/README%20-%20%E8%B4%AD%E4%B9%B0%E6%B5%81%E7%A8%8B.md)
 
 1. 购买流程实现 初始版
    - 购物需求分析，功能用例，自动化用例
