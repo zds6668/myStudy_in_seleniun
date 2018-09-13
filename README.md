@@ -60,6 +60,16 @@ jdk1.8、selenium 3.1、ide eclipse ee、testng 6.14、maven 3.5.4、chromedrive
 
 ## 购买测试
 
+1. 购买流程实现 初始版
+   - 购物需求分析，功能用例，自动化用例
+   - 遍历到所有商品
+   - 用到Assert
+   - 下单流程实现
+2. 重构
+   - 课程页面PO
+   - 确认订单页面PO
+   - 支付中心页面PO
+
 ## testNG
 
 ## CI持续集成
