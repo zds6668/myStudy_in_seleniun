@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
+  <parameter name="username"  value="18291857993"/>
+  <parameter name="pass"  value="19970505"/>
   <test thread-count="5" name="Test">
-  <classes>
-  <class name = "testLogin"/>
-  </classes>
+    <classes>
+      <class name="loginLayer.testCase.login"/>
+    </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
