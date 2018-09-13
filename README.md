@@ -67,8 +67,12 @@ jdk1.8、selenium 3.1、ide eclipse ee、testng 6.14、maven 3.5.4、chromedrive
    - 下单流程实现
 2. 重构
    - 课程页面PO
+
    - 确认订单页面PO
+
    - 支付中心页面PO
+
+     complete 9.13
 
 ## testNG
 
